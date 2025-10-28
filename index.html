@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AIMass Tailwind based React Template" />
+    <title>Logpilot - AI platform for supply chain automation</title>
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/assets/fonts/fonts.css" as="style" />
+    <link rel="preload" href="/favicon1.png" as="image" />
+    <link rel="stylesheet" href="/assets/fonts/fonts.css" />
+    <!-- Ketch Cookie Consent -->
+    <script>
+      window.semaphore = window.semaphore || [];
+      window.ketch = function() {
+        window.semaphore.push(arguments);
+      };
+      var e = new URLSearchParams(document.location.search);
+      var n = document.createElement("script");
+      n.type = "text/javascript";
+      n.src = "https://global.ketchcdn.com/web/v3/config/logpilot_limited/website_smart_tag/boot.js";
+      n.defer = n.async = true;
+      // Add error handling for script loading
+      n.onerror = function() {
+        console.error('Failed to load Ketch script');
+      };
+      document.getElementsByTagName("head")[0].appendChild(n);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

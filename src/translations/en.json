@@ -1,0 +1,22 @@
+{
+  "header": {
+    "getStarted": "Get Started"
+  },
+  "feature": {
+    "title": "Start using Logpilot in 3 steps!",
+    "steps": {
+      "signup": {
+        "title": "Signup",
+        "description": "Sign up on Logpilot and set up your company's account."
+      },
+      "connect": {
+        "title": "Connect your ERP",
+        "description": "Connect your ERP and WMS to Logpilot using plug & Play connectors."
+      },
+      "start": {
+        "title": "Start using Logpilot",
+        "description": "Let the Logpilot take over your workflows and start saving time."
+      }
+    }
+  }
+} 

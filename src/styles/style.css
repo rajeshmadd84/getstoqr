@@ -1,0 +1,191 @@
+@import url(./pre-custom-style.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Post Custom Styles */
+
+body {
+  min-height: 100vh;
+  font-family: Satoshi, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.66;
+  --tw-text-opacity: 1;
+  color: rgb(25 25 25 / var(--tw-text-opacity));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h7,
+h6 {
+  font-family: spaceGrotesk, sans-serif;
+  letter-spacing: normal;
+}
+.font-dmSans {
+  font-family: 'DM Sans', sans-serif;
+}
+.font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+}
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: space Grotesk;
+  line-height: 2.75rem;
+  
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1400px) {
+  h2 {
+    font-size: 60px;
+    
+  }
+}
+
+
+
+h4 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  line-height: 1.33;
+  letter-spacing: 0em;
+}
+
+@media (min-width: 992px) {
+  h5 {
+    font-size: 28px;
+  }
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1.28;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: space grotesk;
+  line-height: 2rem;
+  
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 2.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1400px) {
+  h3 {
+    font-size: 55px;
+    
+  }
+}
+
+h7 {
+  font-size: 2rem;
+  font-family: space grotesk;
+  line-height: 2rem;
+  
+}
+
+@media (min-width: 992px) {
+  h7 {
+    font-size: 2.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  h7 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1400px) {
+  h7 {
+    font-size: 50px;
+    
+  }
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional: Helps with font loading performance */
+}
+
+/* You might also have other weights and styles */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Satoshi-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

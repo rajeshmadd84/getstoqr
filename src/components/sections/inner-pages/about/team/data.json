@@ -1,0 +1,47 @@
+[
+  {
+    "img": "assets/img/th-1/rajesh.jpg",
+    "name": "Rajesh Maddineni",
+    "info": "CEO",
+    
+    "linkedin": "http://www.linkedin.com"
+
+  },
+  {
+    "img": "assets/img/th-1/Sida.jpg",
+    "name": "Sida Jiang",
+    "info": "CDO",
+    "facebook": "http://www.facebook.com",
+    "twitter": "http://www.twitter.com",
+    "linkedin": "http://www.linkedin.com",
+    "instagram": "http://www.instagram.com"
+  },
+  {
+    "img": "assets/img/th-1/tharun.png",
+    "name": "Tharun",
+    "info": "CTO",
+    "facebook": "http://www.facebook.com",
+    "twitter": "http://www.twitter.com",
+    "linkedin": "http://www.linkedin.com",
+    "instagram": "http://www.instagram.com"
+  },
+  {
+    "img": "assets/img/th-1/team-member-img-4.jpg",
+    "name": "Vishnu Srujan Kolli",
+    "info": "CPO",
+    "facebook": "http://www.facebook.com",
+    "twitter": "http://www.twitter.com",
+    "linkedin": "http://www.linkedin.com",
+    "instagram": "http://www.instagram.com"
+  },
+  {
+    "img": "assets/img/th-1/team-member-img-5.jpg",
+    "name": "Sebastian Malmberg",
+    "info": "Head of Sales, Nordics",
+    "facebook": "http://www.facebook.com",
+    "twitter": "http://www.twitter.com",
+    "linkedin": "http://www.linkedin.com",
+    "instagram": "http://www.instagram.com"
+  }
+  
+]

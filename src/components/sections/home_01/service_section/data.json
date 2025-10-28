@@ -1,0 +1,21 @@
+[
+  {
+    "icon_black": "assets/img/th-1/one.svg",
+    
+    "title": "Signup",
+    "text": "Sign up on Logpilot and set up your company's account."
+  },
+  {
+    "icon_black": "assets/img/th-1/two.svg",
+    
+    "title": "Connect your ERP",
+    "text": "Connect your ERP and WMS to Logpilot using plug & Play connectors."
+  },
+  {
+    "icon_black": "assets/img/th-1/three.svg",
+    
+    "title": "Start using Logpilot",
+    "text": "Let the Logpilot take over your workflows and start saving time."
+  }
+ 
+]

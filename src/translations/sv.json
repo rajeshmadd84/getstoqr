@@ -1,0 +1,22 @@
+{
+  "header": {
+    "getStarted": "Kom igång"
+  },
+  "feature": {
+    "title": "Börja använda Logpilot i 3 steg!",
+    "steps": {
+      "signup": {
+        "title": "Registrera dig",
+        "description": "Registrera dig på Logpilot och skapa ditt företagskonto."
+      },
+      "connect": {
+        "title": "Anslut ditt ERP",
+        "description": "Anslut ditt ERP och WMS till Logpilot med hjälp av plug & Play-anslutningar."
+      },
+      "start": {
+        "title": "Börja använda Logpilot",
+        "description": "Låt Logpilot ta över dina arbetsflöden och börja spara tid."
+      }
+    }
+  }
+} 

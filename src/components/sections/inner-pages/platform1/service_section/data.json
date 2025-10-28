@@ -1,0 +1,21 @@
+[
+  {
+    "icon_black": "assets/img/th-1/automation.png",
+    
+    "title": "Intelligent Automation",
+    "text": "Automate end-to-end processes, from procurement to delivery, reducing manual intervention."
+  },
+  {
+    "icon_black": "assets/img/th-1/integration.png",
+    
+    "title": "Seamless Integration",
+    "text": "Connect data from various sources, ensuring a unified, real-time view of your entire supply chain."
+  },
+  {
+    "icon_black": "assets/img/th-1/deeplearning.png",
+    
+    "title": "Continuous Learning",
+    "text": "Our AI evolves with your business, continuously improving decision-making based on the latest data."
+  }
+ 
+]

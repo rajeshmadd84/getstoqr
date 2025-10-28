@@ -1,0 +1,21 @@
+[
+  {
+    "icon_black": "assets/img/th-1/po-gen.svg",
+    
+    "title": "Generate Purchase orders",
+    "text": "Logpilot can generate purchase orders and communicate them to suppliers directly."
+  },
+  {
+    "icon_black": "assets/img/th-1/po-ver.svg",
+    
+    "title": "Purchase order verification",
+    "text": "Logpilot will cross check purchase orders against order confirmations & shipment notes and update PO with new data."
+  },
+  {
+    "icon_black": "assets/img/th-1/po-change.svg",
+    
+    "title": "Purchase order changes",
+    "text": "Logpilot will make changes to Purchase orders by constantly monitoring inventory levels. "
+  }
+ 
+]

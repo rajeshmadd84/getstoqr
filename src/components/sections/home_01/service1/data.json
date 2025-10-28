@@ -1,0 +1,20 @@
+[
+  {
+    "icon_black": "assets/img/th-1/1-c.svg",
+    "icon_orange": "assets/img/th-1/1-c.svg",
+    "title": "Sign up to Logpilot",
+    "text": "Sign up through the self-service portal and activate your account."
+  },
+  {
+    "icon_black": "assets/img/th-1/2-c.svg",
+    "icon_orange": "assets/img/th-1/2-c.svg",
+    "title": "Connect ERP systems",
+    "text": "Select your ERP system from Logpilot connected app store. "
+  },
+  {
+    "icon_black": "assets/img/th-1/3-c.svg",
+    "icon_orange": "assets/img/th-1/3-c.svg",
+    "title": "Let the magic begin!",
+    "text": "Logpilot will plan and execute supply chain activities autonomously."
+  }
+]
