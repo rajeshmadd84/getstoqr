@@ -78,22 +78,18 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
           {/* Global navbar */}
           
           <li className='nav-item text-black'>
-            <Link to='/ai' className='nav-link-item' onClick={handleMenu}>
-              Logpilot Build
+            <Link to='/erp' className='nav-link-item' onClick={handleMenu}>
+              ERP
             </Link>
           </li>
-          <li
-            onClick={(e) => handleSubMenu(e, 2)}
-            className='nav-item nav-item-has-children text-black'
-          >
-            <Link to='/go' className='nav-link-item drop-trigger' onClick={handleMenu}>
-              Logpilot AI
-            </Link>
-          </li>
-          
           <li className='nav-item text-black'>
-            <Link to='/contact' className='nav-link-item' onClick={handleMenu}>
-              Contact
+            <Link to='/wms' className='nav-link-item' onClick={handleMenu}>
+              WMS
+            </Link>
+          </li>
+          <li className='nav-item text-black'>
+            <Link to='/stoqr-ai' className='nav-link-item' onClick={handleMenu}>
+              Stoqr AI
             </Link>
           </li>
         </ul>
