@@ -27,8 +27,8 @@ const About = () => {
         <Content_02 />
         <Content_01 />
         {/*...::: Content Section End :::... */}
-        {/*...::: Core Value Section Start :::... 
-         {/*<CoreValue />*/}
+        {/*...::: Core Value Section Start :::... */}
+         <CoreValue />
         <Slider />
         {/*...::: Core Value Section End :::... */}
         {/*...::: Team Section Start :::... */}

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import logoDark from '../../assets/img/Logpilot.svg';
-import logoLight from '../../assets/img/logo-light.png';
+import logoDark from '../../assets/img/stoqr.svg';
+import logoLight from '../../assets/img/stoqr.svg';
 
 // eslint-disable-next-line react/prop-types
 const LogoDark = ({ light }) => {

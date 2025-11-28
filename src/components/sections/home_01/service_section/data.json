@@ -1,21 +1,50 @@
 [
   {
-    "icon_black": "assets/img/th-1/one.svg",
-    
-    "title": "Signup",
-    "text": "Sign up on Logpilot and set up your company's account."
+    "icon_black": "assets/img/th-1/inventory.png",
+    "icon_orange": "assets/img/th-1/inventory.png",
+    "title": "Inventory Management",
+    "text": "This is an excellent option for people &amp; small businesses who are starting out."
   },
   {
-    "icon_black": "assets/img/th-1/two.svg",
-    
-    "title": "Connect your ERP",
-    "text": "Connect your ERP and WMS to Logpilot using plug & Play connectors."
+    "icon_black": "assets/img/th-1/supplier.png",
+    "icon_orange": "assets/img/th-1/supplier.png",
+    "title": "Supplier Management",
+    "text": "This is an excellent option for people &amp; small businesses who are starting out."
   },
   {
-    "icon_black": "assets/img/th-1/three.svg",
-    
-    "title": "Start using Logpilot",
-    "text": "Let the Logpilot take over your workflows and start saving time."
+    "icon_black": "assets/img/th-1/portal.png",
+    "icon_orange": "assets/img/th-1/portal.png",
+    "title": "Customer Portal",
+    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+  },
+  {
+    "icon_black": "assets/img/th-1/in-stock.png",
+    "icon_orange": "assets/img/th-1/in-stock.png",
+    "title": "Stock replenishment",
+    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+  },
+  {
+    "icon_black": "assets/img/th-1/order.png",
+    "icon_orange": "assets/img/th-1/order.png",
+    "title": "Order fullfilment",
+    "text": "AI SaaS can analyze IoT sensor data to detect predict equipment failures."
+  },
+  {
+    "icon_black": "assets/img/th-1/mobile.png",
+    "icon_orange": "assets/img/th-1/mobile.png",
+    "title": "Mobile App",
+    "text": "Solutions that use AI to predict future trends and outcomes, such as demand forecastin."
+  },
+  {
+    "icon_black": "assets/img/th-1/rack.png",
+    "icon_orange": "assets/img/th-1/rack.png",
+    "title": "Smart Racking",
+    "text": "Speech recognition services convert spoken language into text and accessibility."
+  },
+  {
+    "icon_black": "assets/img/th-1/transport.png",
+    "icon_orange": "assets/img/th-1/transport.png",
+    "title": "Transport Management",
+    "text": "Computer vision services use AI to interpret and process visual information."
   }
- 
 ]

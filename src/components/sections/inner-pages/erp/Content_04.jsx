@@ -3,14 +3,14 @@ const Content_02 = () => {
     <section id='section-content-2'>
       <div className='bg-colorLinenRuffle'>
         {/* Section Spacer */}
-        <div className='py-20 xl:py-[130px]'>
+        <div className='py-10 xl:py-[60px]'>
           {/* Section Container */}
           <div className='global-container'>
-            <div className='grid items-top gap-10 md:grid-cols-[1.3fr_minmax(0,_1fr)] lg:gap-[60px] xl:gap-x-[94px]'>
-              <div className='jos order-2' data-jos_animation='fade-left'>
+            <div className='grid items-center gap-10 md:grid-cols-[2fr_3fr] lg:gap-[60px] xl:gap-x-[94px]'>
+              <div className='jos order-1' data-jos_animation='fade-left'>
                 <div className='overflow-hidden rounded-[10px]'>
                   <img
-                    src='assets/img/th-1/plug.jpg'
+                    src='assets/img/th-1/clientportal.png'
                     alt='content-img-2'
                     width={526}
                     height={550}
@@ -18,19 +18,17 @@ const Content_02 = () => {
                   />
                 </div>
               </div>
-              <div className='jos order-1' data-jos_animation='fade-right'>
+              <div className='jos order-2' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>
-                  Picking Automation
+                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[60px]' style={{ color: '#1D97FF' }}>
+                    Client Portal
                   </h3>
                 </div>
                 {/* Section Content Block */}
-                <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
-                <p className='mb-7 last:mb-0'>
-                Stoqr transforms the picking process into a fast, accurate, and fully guided workflow. Pick lists are generated automatically based on order priority, warehouse zones, and stock availability, ensuring optimal walking paths and minimal time wastage. Every item is verified through barcode scanning to eliminate picking mistakes and ensure the correct SKU, batch, and quantity are pulled. 
-                With real-time updates to inventory and order status, Stoqr keeps warehouse teams perfectly coordinated and dramatically improves order fulfillment speed and accuracy.
-
+                <div className=''>
+                  <p className='mb-8 text-lg leading-[1.4] last:mb-0 lg:text-[20px] font-inter'>
+                  The Stoqr Client Portal gives customers a seamless, self-service platform to manage all their purchasing needs. From browsing products to tracking orders and accessing invoices, the portal delivers a smooth, transparent experience that reduces dependency on sales teams and boosts repeat business.
                   </p>
                   <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
                     <li className='font-inter flex items-start gap-x-3'>
@@ -43,7 +41,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Auto-generated pick lists optimized by zone, priority, and SKU velocity.
+                     Generate periodical reports on procurement.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -55,7 +53,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Barcode-verified picking to prevent wrong item and quantity errors. 
+                      Conversational analytics for procurement teams.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -67,20 +65,9 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Optimized picker routes to reduce travel time and boost productivity.
+                     Fetch data from suppliers and cusotmers in real time.
                     </li>
-                    <li className='font-inter flex items-start gap-x-3'>
-                      <div className='mt-[1.5px] h-[24px] w-[24px]'>
-                        <img
-                          src='assets/img/th-1/tick.svg'
-                          alt='tick'
-                          width='24'
-                          height='24'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Higher order accuracy with fewer exceptions or returns.
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

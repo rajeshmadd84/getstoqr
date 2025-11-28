@@ -1,16 +1,16 @@
 const Content_02 = () => {
   return (
-    <section id='section-content-2'>
+    <section id='section-content-2' className='relative z-[1] -mt-[56px] lg:-mt-[90px] xl:-mt-[112px]'>
       <div className='bg-colorLinenRuffle'>
         {/* Section Spacer */}
         <div className='py-20 xl:py-[130px]'>
           {/* Section Container */}
           <div className='global-container'>
-            <div className='grid items-center gap-10 md:grid-cols-[1.3fr_minmax(0,_1fr)] lg:gap-[60px] xl:gap-x-[94px]'>
-              <div className='jos order-1' data-jos_animation='fade-left'>
+            <div className='grid items-start gap-10 md:grid-cols-[2fr_3fr] lg:gap-[60px] xl:gap-x-[94px]'>
+              <div className='jos order-1 mt-8 lg:mt-10' data-jos_animation='fade-left'>
                 <div className='overflow-hidden rounded-[10px]'>
                   <img
-                    src='assets/img/th-1/decision.jpeg'
+                    src='assets/img/th-1/wautomation.png'
                     alt='content-img-2'
                     width={526}
                     height={550}
@@ -18,7 +18,7 @@ const Content_02 = () => {
                   />
                 </div>
               </div>
-              <div className='jos order-2' data-jos_animation='fade-right'>
+              <div className='jos order-2 mt-8 lg:mt-10' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
                   <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[60px]'>
@@ -28,8 +28,8 @@ const Content_02 = () => {
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                  At Logpilot, we understand that your logistics operations are built on established processes. That's why Logpilot is built with a unique "technology for process" approach. Instead of requiring you to adapt to a rigid system, Logpilot is designed to seamlessly integrate with your existing workflows and automate them intelligently. 
-                  This means you can harness the power of automation without the disruption and complexity of overhauling your current ERP and WMS procedures.
+                Stoqr automates end-to-end warehouse and supply chain workflows, eliminating repetitive manual tasks and ensuring every operation flows smoothly from start to finish. From receiving to picking, packing, dispatching, and reconciliation, Stoqr triggers each step automatically based on predefined rules, real-time data, and system events. This ensures faster processing, fewer errors, and consistent execution across teams and locations. 
+                With intelligent routing, automated alerts, and seamless coordination between modules, Stoqr turns complex warehouse operations into a fully connected, self-running workflow.
                   </p>
                   <ul className='flex flex-col gap-y-2 font-satoshi text-[18px] text-black lg:mt-12 lg:text-[20px]'>
                     <li className='flex items-start gap-x-3'>
@@ -42,7 +42,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                     Generate and Update purchase orders.
+                      Hands-free task progression from one step to the next.
                     </li>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[24px] w-[24px]'>
@@ -54,7 +54,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Generate sales orders with stock allocation.
+                      Real-time alerts to reduce delays and prevent bottlenecks.
                     </li>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[24px] w-[24px]'>
@@ -66,7 +66,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                     Communciate with suppliers and cusotmers.
+                      Consistent, error free execution across all warehouse activities.
                     </li>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[24px] w-[24px]'>
@@ -78,7 +78,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                     Send RFP and RFQ to suppliers.
+                      Reduced manual workload so teams can focus on value added tasks.
                     </li>
                     
                   </ul>

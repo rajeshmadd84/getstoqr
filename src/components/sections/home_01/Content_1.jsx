@@ -13,7 +13,7 @@ const Content_01 = () => {
           <div className='global-container'>
           <div className='jos mb-10 text-left sm:mx-auto sm:text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
             <h4 className='font-spaceGrotesk text-3xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[55px] text-colorBlue'>
-              The New brain for Construction Supply chains!
+              Automate your Supply chains!
             </h4>
           </div>
             <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-10 xl:gap-12 xxl:gap-10'>
@@ -41,11 +41,7 @@ const Content_01 = () => {
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.5] lg:text-[20px] xl:text-[20px]'>
                 <p className='mb-7 font-inter last:mb-0'>
-                Imagine an autonomous brain for your construction supply chain. Logpilot AI doesn’t just process project data—it understands construction context: from material flow and contractor schedules to compliance and safety requirements. It filters critical insights and simulates outcomes to predict delays, risks, and cost overruns before they occur.<br></br><br></br>
-
-More than analysis, Logpilot <strong>proactively recommends and executes corrective actions</strong>—whether it’s rerouting material deliveries, adjusting subcontractor schedules, or reallocating equipment. This minimizes ,<strong>manual firefighting and maximizes efficiency, on-time delivery, and profitability.</strong>
-
-<br></br><br></br>Its self-learning intelligence evolves with every project, continuously refining forecasts and decisions, making your construction supply chain smarter with every operation.  
+                Stoqr AI brings full-scale automation to supply chains — eliminating manual tasks and data entry through intelligent, self-operating workflows. It automates order processing, inventory forecasting, supplier communications, and document handling in real time. With AI-driven precision, Stoqr enhances accuracy, reduces operational costs, and boosts efficiency — creating a fully automated, connected, and intelligent supply chain ecosystem.
                   </p>
                  
                   

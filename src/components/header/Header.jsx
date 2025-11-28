@@ -18,7 +18,7 @@ const Header = ({ navColor, light }) => {
           </div>
 
           {/* Desktop Navbar */}
-          <div className='hidden md:flex flex-grow justify-center'>
+          <div className='hidden md:flex flex-grow justify-end mr-[15px]'>
             <Navbar mobileMenu={false} setMobileMenu={setMobileMenu} color={navColor} />
           </div>
 

@@ -10,7 +10,7 @@ const Usecases = () => {
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
             <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-colorBlue sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
-            Get your supply chain in order!
+            One Stop Shop for your operations!
             </h2>
           </div>
           {/* Section Content Block */}
@@ -31,12 +31,12 @@ const Usecases = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
-                  Collaboration
+                <div className='flex-1 font-spaceGrotesk text-2xl leading-[1.33] min-h-[64px]'>
+                Enterprise Resource Planning (ERP)
                 </div>
               </div>
               <p className='mb-7 text-[21px] font-inter leading-[1.4]'>
-              Logpilot autonomously forecasts demand & inventory with real-time data from ERP systems, and data gathered from suppliers & customers.
+              Stoqr ERP gives you complete control over your operations and inventory through intelligent, automated workflows. From Procurement, Sales to invoicing, Stoqr streamlines every step of your business process, reducing manual effort and improving visibility across teams.
               </p>
               <Link
                 to='/ai'
@@ -74,12 +74,12 @@ const Usecases = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
-                  Automation
+                <div className='flex-1 font-spaceGrotesk text-2xl leading-[1.33] min-h-[64px]'>
+                  Warehouse Management System (WMS)
                 </div>
               </div>
               <p className='mb-7 text-[20px] font-inter leading-[1.4]'>
-                Logpilot will automate repititive manual tasks like generating purchase orders & sales orders, validating purchase orders, stock allocation, etc.
+              Stoqr WMS automates and optimizes every warehouse operation — from inbound receiving to outbound shipments. Using AI-driven insights and barcode-based tracking, it ensures faster picking, accurate order fulfillment, and efficient space utilization.
               </p>
               <Link
                 to='/go'
@@ -117,12 +117,12 @@ const Usecases = () => {
                     className='h-full w-auto'
                   />
                 </div>
-                <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33]'>
-                  Communications
+                <div className='flex-1 font-spaceGrotesk text-2xl leading-[1.33] min-h-[64px]'>
+                  Invoicing & Payouts
                 </div>
               </div>
               <p className='mb-7 text-[20px] font-inter leading-[1.4]'>
-              Get relief from never-ending email threads and focus on your core business. LogPilot will send emails to relevant suppliers and customers to gather information.
+              Stoqr AI automates the entire invoicing and payment cycle — eliminating delays and manual errors. It generates and sends GST-compliant invoices instantly, tracks payments in real time, and integrates seamlessly with accounting tools like Tally and QuickBooks.
               </p>
               <Link
                 to='/go'

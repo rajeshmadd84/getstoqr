@@ -10,7 +10,7 @@ const Service = () => {
           {/* Section Content Block */}
           <div className='jos mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[856px]'>
             <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-colorBlue sm:text-[44px] lg:text-[56px] xl:text-[70px]'>
-            Stay ahead of the unexpected!
+            Get a break from manual, repetitive tasks!
             </h2>
           </div>
           {/* Section Content Block */}
@@ -32,11 +32,11 @@ const Service = () => {
                   />
                 </div>
                 <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33] text-colorBlue'>
-                Predictive analytics
+                Forecasting
                 </div>
               </div>
               <p className='mb-7 font-inter text-[18px] leading-[1.4] text-black'>
-              Get the best of Logpilot with inventory optimization, demand forecasting, and supply chain risk predictions.
+              Stoqr AI autonomously forecasts demand & inventory with real-time data gathered from suppliers & customers.
               </p>
              
             </li>
@@ -57,11 +57,11 @@ const Service = () => {
                   />
                 </div>
                 <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33] text-colorBlue'>
-                Proactive decisions
+                Automation
                 </div>
               </div>
               <p className='mb-7 font-inter text-[18px] leading-[1.4] text-black'>
-              Logpilot will make proactive supply chain decisions based on real time data to minimize supply chain risks.
+              Stoqr will automate repititive manual tasks like generating purchase orders & sales orders, validating purchase orders, stock allocation, etc.
               </p>
               
             </li>
@@ -82,11 +82,11 @@ const Service = () => {
                   />
                 </div>
                 <div className='flex-1 font-spaceGrotesk text-3xl leading-[1.33] text-colorBlue'>
-                Data Integration
+                Communications
                 </div>
               </div>
               <p className='mb-7 font-inter text-[18px] leading-[1.4] text-black'>
-              Seamlessly integrates and consolidates data from diverse sources, ensuring all stakeholders have access to unified and real-time information.
+              Get relief from never-ending email threads and focus on your core business. Stoqr will send emails to relevant suppliers and customers to gather information.
               </p>
              
             </li>

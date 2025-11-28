@@ -34,20 +34,21 @@ const Home_01 = () => {
       
       {/*<Content_20 />*/}
       <Service />
-      <Content_4 />
+      {/*<Content_4 />*/}
       {/*<Content_5 />
       <Service1 />
-      <Content_3 />
-       {/*<Promo />
-       <CoreValue />
-       <Feature />
+      <Content_3 />*/}
+      {/*<Promo />*/}
+      <Service_Section />
+      {/*<CoreValue />
+      <Feature />
       {/*<Working/>*/}
       {/*<Integrates/>*/}
       
       {/*<FunFact />
       {/*<Pricing_Section />
       {/*<Pricing />*/}
-       <Contact />
+       {/*<Contact />*/}
      
      {/* <Slider/> */}
       {/* <Testimonial_Section /> */}

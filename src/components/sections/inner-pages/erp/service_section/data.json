@@ -1,0 +1,21 @@
+[
+  {
+    "icon_black": "assets/img/th-1/monitoring.png",
+    
+    "title": "Monitoring",
+    "text": "Logpilot monitors supply chain data 24/7 autonomously."
+  },
+  {
+    "icon_black": "assets/img/th-1/risk.png",
+    
+    "title": "Predicting",
+    "text": "Logpilot predicts supply chain risks from the data."
+  },
+  {
+    "icon_black": "assets/img/th-1/solving.png",
+    
+    "title": "Resolving",
+    "text": "Logpilot preempts supply chain risks with smart action."
+  }
+ 
+]

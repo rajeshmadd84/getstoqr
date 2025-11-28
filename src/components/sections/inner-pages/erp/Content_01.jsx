@@ -12,7 +12,7 @@ const Content_01 = () => {
               data-jos_animation='fade-left'
             >
               <img
-                src='assets/img/th-1/scvisibility.jpeg'
+                src='assets/img/th-1/procurement.png'
                 alt='content-image-2'
                 width={626}
                 height={550}
@@ -24,13 +24,13 @@ const Content_01 = () => {
             <div className='jos order-1' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>Inbound Management</h3>
+                <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>Procurement Automation</h3>
               </div>
               {/* Section Content Block */}
               <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                Stoqr streamlines inbound receiving by guiding warehouse teams through a structured, error-free intake process. 
-                Purchase orders are validated instantly, quantities and item details are checked in real time, and every received SKU is recorded with batch, lot, and bin information for complete traceability. Smart putaway suggestions help store goods efficiently, while discrepancies such as shortages or mismatches are flagged automatically. With live updates to the stock ledger and ERP, Stoqr ensures accurate, immediate visibility of all incoming inventory.
+                Stoqr streamlines the entire purchasing cycle by autonomously forecasting inventory needs, processing purchase requests, validating documents, coordinating with suppliers, and triggering downstream actions without manual effort. 
+                By predicting stock requirements before shortages occur, it reduces errors, accelerates order fulfillment, and ensures every procurement step is executed efficiently, proactively, and consistently.
                 </p>
               </div>
               <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
@@ -44,7 +44,7 @@ const Content_01 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Instant PO validation to ensure accurate and compliant receiving.
+                      Unwavering surveillance of your supply chain ecosystem.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -56,7 +56,7 @@ const Content_01 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Error-free item capture with barcode scans and real-time checks.
+                      Sophisticated models that forecast risks with precision.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -68,7 +68,7 @@ const Content_01 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Faster receiving cycles with guided, streamlined workflows.
+                     Aligns supply chain operations with overall business strategy. 
                     </li>
                     
                   </ul>

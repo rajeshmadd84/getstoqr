@@ -20,9 +20,21 @@ const useJOSAnimation = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Check if there's a hash in the URL
+    if (location.hash) {
+      // Wait for the page to render, then scroll to the hash element
+      setTimeout(() => {
+        const element = document.querySelector(location.hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    } else {
+      // No hash, scroll to top
+      window.scrollTo(0, 0);
+    }
     JOS.refresh();
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 };
 
 export default useJOSAnimation;

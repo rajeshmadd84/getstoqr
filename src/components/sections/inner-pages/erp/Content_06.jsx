@@ -1,16 +1,16 @@
-const Content_02 = () => {
+const Content_05 = () => {
   return (
     <section id='section-content-2'>
-      <div className='bg-colorLinenRuffle'>
+      <div className=''>
         {/* Section Spacer */}
-        <div className='py-20 xl:py-[130px]'>
+        <div className='pt-20 pb-[34px] xl:pt-[130px] xl:pb-[51px]'>
           {/* Section Container */}
           <div className='global-container'>
             <div className='grid items-top gap-10 md:grid-cols-[1.3fr_minmax(0,_1fr)] lg:gap-[60px] xl:gap-x-[94px]'>
               <div className='jos order-2' data-jos_animation='fade-left'>
                 <div className='overflow-hidden rounded-[10px]'>
                   <img
-                    src='assets/img/th-1/plug.jpg'
+                    src='assets/img/th-1/visibility2.jpeg'
                     alt='content-img-2'
                     width={526}
                     height={550}
@@ -21,16 +21,16 @@ const Content_02 = () => {
               <div className='jos order-1' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>
-                  Picking Automation
+                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[40px] lg:text-[50px] xl:text-[54px]' style={{ color: '#1D97FF' }}>
+                 Transport Management
                   </h3>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                Stoqr transforms the picking process into a fast, accurate, and fully guided workflow. Pick lists are generated automatically based on order priority, warehouse zones, and stock availability, ensuring optimal walking paths and minimal time wastage. Every item is verified through barcode scanning to eliminate picking mistakes and ensure the correct SKU, batch, and quantity are pulled. 
-                With real-time updates to inventory and order status, Stoqr keeps warehouse teams perfectly coordinated and dramatically improves order fulfillment speed and accuracy.
-
+                Stoqr Transport Management delivers full control, automation, and transparency across all logistics operations. Whether using an internal fleet or third-party operators, Stoqr ensures every shipment is planned, optimized, tracked, and delivered with maximum efficiency. 
+                It unifies warehouse workflows, transport assignments, driver updates, and customer notifications—reducing delays and improving on-time delivery performance across the entire network. 
+                  
                   </p>
                   <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
                     <li className='font-inter flex items-start gap-x-3'>
@@ -43,7 +43,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Auto-generated pick lists optimized by zone, priority, and SKU velocity.
+                      Auto-request and compare quotes to choose the best transport option.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -55,7 +55,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Barcode-verified picking to prevent wrong item and quantity errors. 
+                      Manage third-party transport operators directly inside Stoqr.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -67,19 +67,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Optimized picker routes to reduce travel time and boost productivity.
-                    </li>
-                    <li className='font-inter flex items-start gap-x-3'>
-                      <div className='mt-[1.5px] h-[24px] w-[24px]'>
-                        <img
-                          src='assets/img/th-1/tick.svg'
-                          alt='tick'
-                          width='24'
-                          height='24'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Higher order accuracy with fewer exceptions or returns.
+                      Integrated workflows linking transport, warehouse, orders, and customer updates.
                     </li>
                   </ul>
                 </div>
@@ -94,4 +82,4 @@ const Content_02 = () => {
   );
 };
 
-export default Content_02;
+export default Content_05;

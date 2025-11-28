@@ -79,16 +79,16 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
           
           <li className='nav-item text-black'>
             <Link to='/erp' className='nav-link-item' onClick={handleMenu}>
-              ERP
+              Stoqr ERP
             </Link>
           </li>
           <li className='nav-item text-black'>
             <Link to='/wms' className='nav-link-item' onClick={handleMenu}>
-              WMS
+              Stoqr WMS
             </Link>
           </li>
           <li className='nav-item text-black'>
-            <Link to='/stoqr-ai' className='nav-link-item' onClick={handleMenu}>
+            <Link to='/ai' className='nav-link-item' onClick={handleMenu}>
               Stoqr AI
             </Link>
           </li>

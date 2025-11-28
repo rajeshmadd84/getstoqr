@@ -9,7 +9,7 @@ const Promo = () => {
           {/* Section Content Block */}
           <div className='mx-auto mb-10 text-center md:mb-16 md:max-w-xl lg:mb-20 lg:max-w-3xl xl:max-w-[1000px]'>
             <h2 className='font-spaceGrotesk text-4xl font-medium leading-[1.06] sm:text-[44px] lg:text-[56px] xl:text-[60px]'>
-            Stay ahead of the unexpected!
+            Get a break from manual, repetitive tasks!
             </h2>
           </div>
           {/* Section Content Block */}

@@ -6,6 +6,7 @@ import Home_03 from './pages/home/Home_03';
 import Home_04 from './pages/home/Home_04';
 import Ai from './pages/common/Ai';
 import Go from './pages/common/Go';
+import Erp from './pages/common/Erp';
 import Stoqr_ai from './pages/common/Stoqr_ai';
 import Blog_details from './pages/common/Blog_details';
 import Blog from './pages/common/Blog';
@@ -63,7 +64,7 @@ function App() {
           <Route path='platform1' element={<Platform1 />} />
           {/* Keep existing AI page, add renamed routes for ERP/WMS */}
           <Route path='ai' element={<Ai />} />
-          <Route path='erp' element={<Ai />} />
+          <Route path='erp' element={<Erp />} />
           <Route path='wms' element={<Go />} />
           <Route path='stoqr-ai' element={<Stoqr_ai />} />
           <Route path='procurement' element={<Procurement />} />

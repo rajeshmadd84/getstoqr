@@ -58,6 +58,7 @@ export default {
         colorGreen: "#39FF14",
         colorBlue: "#0000F0",
         colorLightblue: "#0693E3",
+        colorStoqrBlue: "#1D97FF",
       },
     },
   },

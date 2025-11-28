@@ -3,7 +3,6 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 import enTranslations from './translations/en.json';
-import svTranslations from './translations/sv.json';
 
 i18n
   .use(LanguageDetector)
@@ -12,9 +11,6 @@ i18n
     resources: {
       en: {
         translation: enTranslations
-      },
-      sv: {
-        translation: svTranslations
       }
     },
     fallbackLng: 'en',

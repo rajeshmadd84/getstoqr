@@ -3,34 +3,32 @@ const Content_02 = () => {
     <section id='section-content-2'>
       <div className='bg-colorLinenRuffle'>
         {/* Section Spacer */}
-        <div className='py-20 xl:py-[130px]'>
+        <div className='py-20 xl:py-[70px]'>
           {/* Section Container */}
           <div className='global-container'>
-            <div className='grid items-top gap-10 md:grid-cols-[1.3fr_minmax(0,_1fr)] lg:gap-[60px] xl:gap-x-[94px]'>
-              <div className='jos order-2' data-jos_animation='fade-left'>
+            <div className='grid items-top gap-10 md:grid-cols-[2fr_3fr] lg:gap-[60px] xl:gap-x-[94px]'>
+              <div className='jos order-1' data-jos_animation='fade-left'>
                 <div className='overflow-hidden rounded-[10px]'>
                   <img
-                    src='assets/img/th-1/plug.jpg'
+                    src='assets/img/th-1/salesorder.png'
                     alt='content-img-2'
                     width={526}
-                    height={550}
-                    className='h-auto w-full'
+                    height={400}
+                    className='max-h-[400px] w-full object-contain'
                   />
                 </div>
               </div>
-              <div className='jos order-1' data-jos_animation='fade-right'>
+              <div className='jos order-2' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
                   <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>
-                  Picking Automation
+               Order management
                   </h3>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                Stoqr transforms the picking process into a fast, accurate, and fully guided workflow. Pick lists are generated automatically based on order priority, warehouse zones, and stock availability, ensuring optimal walking paths and minimal time wastage. Every item is verified through barcode scanning to eliminate picking mistakes and ensure the correct SKU, batch, and quantity are pulled. 
-                With real-time updates to inventory and order status, Stoqr keeps warehouse teams perfectly coordinated and dramatically improves order fulfillment speed and accuracy.
-
+                Stoqr simplifies and automates the entire order-to-fulfillment lifecycle. Orders flow seamlessly from capture to delivery with intelligent validation, real-time stock checks, automated routing, and coordinated warehouse execution. Stoqr ensures every order is processed with speed, accuracy, and minimal manual intervention — enabling teams to scale operations effortlessly.
                   </p>
                   <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
                     <li className='font-inter flex items-start gap-x-3'>
@@ -43,7 +41,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Auto-generated pick lists optimized by zone, priority, and SKU velocity.
+                      Reduced processing time through elimination of manual reviews.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -55,7 +53,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Barcode-verified picking to prevent wrong item and quantity errors. 
+                      Instant order validation using real-time stock, pricing, and credit checks.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -67,20 +65,9 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Optimized picker routes to reduce travel time and boost productivity.
+                      Live order tracking for sales teams and customers. 
                     </li>
-                    <li className='font-inter flex items-start gap-x-3'>
-                      <div className='mt-[1.5px] h-[24px] w-[24px]'>
-                        <img
-                          src='assets/img/th-1/tick.svg'
-                          alt='tick'
-                          width='24'
-                          height='24'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Higher order accuracy with fewer exceptions or returns.
-                    </li>
+                    
                   </ul>
                 </div>
               </div>

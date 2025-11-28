@@ -1,7 +1,7 @@
-const Content_02 = () => {
+const Content_05 = () => {
   return (
     <section id='section-content-2'>
-      <div className='bg-colorLinenRuffle'>
+      <div className=''>
         {/* Section Spacer */}
         <div className='py-20 xl:py-[130px]'>
           {/* Section Container */}
@@ -10,7 +10,7 @@ const Content_02 = () => {
               <div className='jos order-2' data-jos_animation='fade-left'>
                 <div className='overflow-hidden rounded-[10px]'>
                   <img
-                    src='assets/img/th-1/plug.jpg'
+                    src='assets/img/th-1/visibility2.jpeg'
                     alt='content-img-2'
                     width={526}
                     height={550}
@@ -21,16 +21,14 @@ const Content_02 = () => {
               <div className='jos order-1' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[34px] lg:text-[46px] xl:text-[50px]' style={{ color: '#1D97FF' }}>
-                  Picking Automation
+                  <h3 className='font-spaceGrotesk text-2xl font-medium leading-[1.06] sm:text-[40px] lg:text-[50px] xl:text-[54px]' style={{ color: '#1D97FF' }}>
+                 Inventory Management
                   </h3>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                Stoqr transforms the picking process into a fast, accurate, and fully guided workflow. Pick lists are generated automatically based on order priority, warehouse zones, and stock availability, ensuring optimal walking paths and minimal time wastage. Every item is verified through barcode scanning to eliminate picking mistakes and ensure the correct SKU, batch, and quantity are pulled. 
-                With real-time updates to inventory and order status, Stoqr keeps warehouse teams perfectly coordinated and dramatically improves order fulfillment speed and accuracy.
-
+                Stoqr delivers intelligent, real-time inventory control built for accuracy, speed, and multi-location visibility. It acts as the central nervous system of your stock operations—tracking every movement, maintaining precise SKU-level records, and ensuring the right products are always available. With predictive insights and automated workflows, Stoqr transforms inventory management from a manual burden into a proactive, data-driven system.
                   </p>
                   <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
                     <li className='font-inter flex items-start gap-x-3'>
@@ -43,7 +41,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Auto-generated pick lists optimized by zone, priority, and SKU velocity.
+                      AI demand forecasting to prevent stockouts and overstocking.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -55,7 +53,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Barcode-verified picking to prevent wrong item and quantity errors. 
+                      Full SKU traceability with a complete stock ledger and audit trail.
                     </li>
                     <li className='font-inter flex items-start gap-x-3'>
                       <div className='mt-[1.5px] h-[24px] w-[24px]'>
@@ -67,19 +65,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Optimized picker routes to reduce travel time and boost productivity.
-                    </li>
-                    <li className='font-inter flex items-start gap-x-3'>
-                      <div className='mt-[1.5px] h-[24px] w-[24px]'>
-                        <img
-                          src='assets/img/th-1/tick.svg'
-                          alt='tick'
-                          width='24'
-                          height='24'
-                          className='h-full w-full'
-                        />
-                      </div>
-                      Higher order accuracy with fewer exceptions or returns.
+                      Automated allocation for fast and accurate fulfillment.
                     </li>
                   </ul>
                 </div>
@@ -94,4 +80,4 @@ const Content_02 = () => {
   );
 };
 
-export default Content_02;
+export default Content_05;
