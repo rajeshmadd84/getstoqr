@@ -12,7 +12,7 @@ const Content_01 = () => {
               data-jos_animation='fade-left'
             >
               <img
-                src='assets/img/th-1/scvisibility.jpeg'
+                src='assets/img/th-1/inbound.png'
                 alt='content-image-2'
                 width={626}
                 height={550}

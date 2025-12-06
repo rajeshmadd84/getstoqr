@@ -6,15 +6,15 @@ const Content_05 = () => {
         <div className='py-20 xl:py-[130px]'>
           {/* Section Container */}
           <div className='global-container'>
-            <div className='grid items-top gap-10 md:grid-cols-[1.3fr_minmax(0,_1fr)] lg:gap-[60px] xl:gap-x-[94px]'>
-              <div className='jos order-2' data-jos_animation='fade-left'>
-                <div className='overflow-hidden rounded-[10px]'>
+            <div className='grid items-top gap-10 md:grid-cols-[3fr_2fr] lg:gap-[60px] xl:gap-x-[94px]'>
+              <div className='jos order-2 flex items-start' data-jos_animation='fade-left'>
+                <div className='overflow-hidden rounded-[10px] w-full'>
                   <img
-                    src='assets/img/th-1/visibility2.jpeg'
+                    src='assets/img/th-1/inventorymanagement.png'
                     alt='content-img-2'
                     width={526}
                     height={550}
-                    className='h-auto w-full'
+                    className='h-auto w-full max-h-[400px] object-contain'
                   />
                 </div>
               </div>
@@ -28,7 +28,8 @@ const Content_05 = () => {
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[20px] font-inter'>
                 <p className='mb-7 last:mb-0'>
-                Stoqr delivers intelligent, real-time inventory control built for accuracy, speed, and multi-location visibility. It acts as the central nervous system of your stock operations—tracking every movement, maintaining precise SKU-level records, and ensuring the right products are always available. With predictive insights and automated workflows, Stoqr transforms inventory management from a manual burden into a proactive, data-driven system.
+                Stoqr delivers intelligent, real time inventory control built for accuracy, speed, and multi location visibility. It acts as the central nervous system of your stock operations tracking every movement, maintaining precise SKU level records, and ensuring the right products are always available. 
+                With predictive insights and automated workflows, Stoqr transforms inventory management from a manual burden into a proactive, data-driven system.
                   </p>
                   <ul className='flex flex-col gap-y-2 font-semibold text-base md:text-xl text-black lg:mt-12 lg:text-[18px]'>
                     <li className='font-inter flex items-start gap-x-3'>
